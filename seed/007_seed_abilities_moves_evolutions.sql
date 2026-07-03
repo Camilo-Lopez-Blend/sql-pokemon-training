@@ -560,7 +560,6 @@ FROM (VALUES
 (100, 101, 30, 'nivel'),
 (102, 103, NULL, 'piedra-hoja'),
 (104, 105, 28, 'nivel'),
-(108, 109, NULL, NULL), -- No evoluciona, solo referencia
 (109, 110, 35, 'nivel'),
 (111, 112, 42, 'nivel'),
 (116, 117, 32, 'nivel'),
