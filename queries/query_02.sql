@@ -14,4 +14,4 @@ GROUP BY
     p.name_es,
     t1.name_es,
     t2.name_es
-ORDER BY total_stats DESC;
+ORDER BY total_stats DESC
