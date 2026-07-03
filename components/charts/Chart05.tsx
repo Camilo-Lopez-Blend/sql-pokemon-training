@@ -14,7 +14,7 @@ interface Row {
 const PAGE_SIZE = 8
 
 export function Chart05({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
   const [page, setPage] = useState(0)
   const total = Math.ceil(rows.length / PAGE_SIZE)
   const slice = rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)

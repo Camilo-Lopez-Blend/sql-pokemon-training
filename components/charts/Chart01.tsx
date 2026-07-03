@@ -21,7 +21,7 @@ const CLASS_ICONS: Record<string, string> = {
 }
 
 export function Chart01({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
 
   return (
     <div className="overflow-x-auto">

@@ -9,7 +9,7 @@ interface Row {
 }
 
 export function Chart03({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
   const max = Math.max(...rows.map((r) => r.total_pokemon))
 
   const colors = ['#e3350d', '#ff8c42', '#ffcb05', '#78c850', '#6890f0']

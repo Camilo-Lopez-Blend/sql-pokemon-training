@@ -24,7 +24,7 @@ const STAT_COLORS: Record<string, string> = {
 const MEDALS = ['🥇', '🥈', '🥉', '4°', '5°']
 
 export function Chart08({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
 
   return (
     <div className="flex flex-col gap-3">

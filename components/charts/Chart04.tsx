@@ -14,7 +14,7 @@ interface Row {
 }
 
 export function Chart04({ data }: { data: Record<string, unknown>[] }) {
-  const rows = (data as Row[]).map((r) => ({
+  const rows = (data as unknown as Row[]).map((r) => ({
     tipo: r.tipo,
     Ataque: Number(Number(r.promedio_ataque).toFixed(1)),
     Defensa: Number(Number(r.promedio_defensa).toFixed(1)),

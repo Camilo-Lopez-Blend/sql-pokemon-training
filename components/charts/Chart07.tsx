@@ -10,7 +10,7 @@ interface Row {
 }
 
 export function Chart07({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
   const avg = rows[0]?.promedio_general
     ? Number(rows[0].promedio_general)
     : rows.reduce((s, r) => s + r.hp, 0) / rows.length

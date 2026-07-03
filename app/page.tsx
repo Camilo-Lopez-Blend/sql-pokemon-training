@@ -1,3 +1,5 @@
+'use client'
+
 import { QueryCard } from '@/components/QueryCard'
 import { Chart01 } from '@/components/charts/Chart01'
 import { Chart02 } from '@/components/charts/Chart02'

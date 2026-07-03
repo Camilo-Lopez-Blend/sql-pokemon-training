@@ -11,7 +11,7 @@ interface Row {
 }
 
 export function Chart09({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
   const maxAtk = Math.max(...rows.map((r) => r.ataque))
 
   return (

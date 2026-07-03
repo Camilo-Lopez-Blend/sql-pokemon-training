@@ -27,7 +27,7 @@ function EvoArrow({ level, trigger }: { level?: number | null; trigger?: string 
 }
 
 export function Chart10({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
 
   return (
     <div className="overflow-auto max-h-72">

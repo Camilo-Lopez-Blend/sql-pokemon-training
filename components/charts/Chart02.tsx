@@ -12,7 +12,7 @@ interface Row {
 }
 
 export function Chart02({ data }: { data: Record<string, unknown>[] }) {
-  const rows = data as Row[]
+  const rows = data as unknown as Row[]
   const max = Math.max(...rows.map((r) => r.total_stats))
 
   return (

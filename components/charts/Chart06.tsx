@@ -16,7 +16,7 @@ function getSpeedColor(speed: number): string {
 }
 
 export function Chart06({ data }: { data: Record<string, unknown>[] }) {
-  const rows = (data as Row[]).sort((a, b) => b.promedio_velocidad - a.promedio_velocidad)
+  const rows = (data as unknown as Row[]).sort((a, b) => b.promedio_velocidad - a.promedio_velocidad)
   const max = Math.max(...rows.map((r) => r.promedio_velocidad))
 
   return (
