@@ -86,7 +86,7 @@ INSERT INTO pokemon (pokedex_number, name_es, name_en, height_dm, weight_hg, bas
 (80,  'Slowbro',     'Slowbro',      16, 785,  172,  false, false),
 (81,  'Magnemite',   'Magnemite',     3,  60,   65,  false, false),
 (82,  'Magneton',    'Magneton',     10, 600,  163,  false, false),
-(83,  "Farfetch'd",  'Farfetchd',    8,  150,  132,  false, false),
+(83,  'Farfetch''d',  'Farfetchd',    8,  150,  132,  false, false),
 (84,  'Doduo',       'Doduo',        14, 392,   62,  false, false),
 (85,  'Dodrio',      'Dodrio',       18, 852,  165,  false, false),
 (86,  'Seel',        'Seel',         11, 900,   65,  false, false),
