@@ -104,7 +104,7 @@ export default function Dashboard() {
                   <circle cx="50" cy="50" r="5" fill="#ffcb05"/>
                 </svg>
                 <h1 className="font-pokemon text-[var(--pokemon-yellow)] text-sm md:text-base leading-relaxed">
-                  Pokemon SQL<br />Training Dashboard
+                  BLEND SQL<br />Busca Pokemones
                 </h1>
               </div>
               <p className="text-[var(--pokemon-muted)] text-sm max-w-xl">
