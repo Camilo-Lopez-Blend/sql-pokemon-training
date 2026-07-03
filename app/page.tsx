@@ -91,7 +91,7 @@ export default function Dashboard() {
     <div className="min-h-screen">
       {/* ── HERO ── */}
       <header className="relative overflow-hidden border-b border-[var(--pokemon-border)] bg-[var(--pokemon-surface)]">
-        <div className="max-w-7xl mx-auto px-6 py-10">
+        <div className="w-full px-8 py-10">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
               <div className="flex items-center gap-3 mb-3">
@@ -136,7 +136,7 @@ export default function Dashboard() {
       </header>
 
       {/* ── GRID DE CONSULTAS ── */}
-      <main className="max-w-7xl mx-auto px-6 py-8">
+      <main className="w-full px-8 py-8">
         {/* Fila 1: Q1 + Q2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <QueryCard {...QUERIES[0]}>
