@@ -31,4 +31,4 @@ JOIN pokemon pe1 ON pe1.id = c.evo1_id
 JOIN pokemon pe2 ON pe2.id = c.evo2_id
 JOIN stats_totales sb ON sb.id = c.base_id
 JOIN stats_totales sf ON sf.id = c.evo2_id
-ORDER BY pb.name_es;
+ORDER BY pb.name_es
